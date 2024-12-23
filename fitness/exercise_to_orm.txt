@@ -1,0 +1,7 @@
+squat : 67.5
+deadlift (dumb) : 26
+lunges (dumb) : 16
+calf (dumb) : 30
+bars push up : 5
+bars pull up : 5
+biceps : 14

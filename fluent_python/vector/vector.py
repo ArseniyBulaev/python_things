@@ -1,22 +1,5 @@
-"""
-# Addition
->>> v1 = Vector(2, 4)
->>> v2 = Vector(2, 1)
->>> v1 + v2 
-Vector(4, 5)
-
-# Module
->>> v = Vector(3,4)
->>> abs(v)
-5.0
-
-# Multiplication by scalar
->>> v * 3
-Vector(9, 12)
-
-"""
-
 import math
+
 class Vector:
     def __init__(self, x=0, y=0):
         self.x = x
@@ -38,17 +21,3 @@ class Vector:
     
     def __mul__(self, scalar):
         return Vector(self.x * scalar, self.y * scalar)
-
-
-def main():
-    v1 = Vector(2,1)
-    v2 = Vector(2,4)
-    print(v1+v2)
-
-    v = Vector(3, 4)
-    print(abs(v))
-
-    print(v*3)
-
-if __name__ == "__main__":
-    main()
